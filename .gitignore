@@ -1,0 +1,5 @@
+.env
+
+# Virtual environments
+myvenv/
+genai
