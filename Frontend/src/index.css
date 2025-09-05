@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+body {
+  margin: 0;
+  font-family: 'Mulish' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Mulish' !important;
+}
+
+
+/* success toaster */
+.custom-toast {
+ border: 1px solid #00C54C !important;
+  background-color: #DFFFEB !important;
+  color: #00C54C !important;
+  box-shadow: none !important;
+  padding: 8px 8px !important;
+  min-height: 53px !important;
+  display: flex;
+  align-items: center;
+  width: 302px;
+ 
+}
+
+.custom-toast-body {
+  color: #00C54C !important;
+  font-weight: 500;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.Toastify__close-button {
+  display: none !important;
+}
+
+
+/* error toaster */
+.Toastify__toast--error {
+  border: 1px solid #FF3B30;
+  background-color: #FFEAEA;
+  color: #FF3B30;
+}
+
+tfoot td:nth-child(1),
+tfoot td:nth-child(2),
+tfoot td:nth-child(3)
+ {
+  border: none !important;
+  background: transparent;
+}

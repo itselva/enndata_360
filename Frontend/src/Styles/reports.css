@@ -1,0 +1,196 @@
+.report-page{
+    width: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* spacing between items */
+}
+
+.form-grid > div {
+  flex: 1 1 22%; /* 4 items per row roughly (100% / 4 = 25%, subtracting gap) */
+}
+
+.label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.date-inputs {
+    height: 28px;
+    width: 170px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.button-preview{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reports-list{
+    width: auto;
+    overflow-x: scroll;
+}
+
+
+.reports-list table {
+  width: auto;
+  margin: 20px;
+  border: 1px solid #E5E5E5 !important;
+}
+ 
+.reports-list table thead,
+tbody,
+tr,
+th,
+td {
+  border: 1px solid #E5E5E5 !important;
+  text-align: left;
+  font-size: 13px;
+  font-weight: unset;
+  color: #000000;
+  /* font-family: 'Mulish'; */
+  padding: 10px 12px !important;
+  width: auto;
+ 
+}
+ 
+ 
+ 
+.reports-list table {
+  border-collapse: collapse;
+}
+ 
+.reports-list tbody tr td {
+  padding: 0px 4px  !important;
+  border: 1px solid #E5E5E5 !important;
+}
+ 
+.reports-list thead th {
+    background-color: #E5E5E5;
+}
+ 
+.reports-list tfoot td {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  /* Match your design */
+  z-index: 2;
+}
+ 
+.reports-list tfoot td {
+  bottom: -2px;
+}
+/* Mobile: up to 575px */
+@media (max-width: 575px) {
+  .form-grid > div {
+    flex: 1 1 100%;
+  }
+
+  .date-inputs {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .label {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button-preview {
+    justify-content: center;
+  }
+
+  .reports-list table {
+    font-size: 12px;
+    margin: 10px;
+  }
+}
+
+/* Tablets: 576px - 899px */
+@media (min-width: 576px) and (max-width: 899px) {
+  .form-grid > div {
+    flex: 1 1 48%;
+  }
+
+  .date-inputs {
+    width: 160px;
+    font-size: 14px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+}
+
+/* Laptops: 900px - 1399px */
+@media (min-width: 900px) and (max-width: 1399px) {
+  .form-grid > div {
+    flex: 1 1 30%;
+  }
+
+  .date-inputs {
+    width: 160px;
+    font-size: 15px;
+  }
+
+  .label {
+    font-size: 15px;
+  }
+}
+
+/* Desktops: 1400px - 1999px */
+@media (min-width: 1400px) and (max-width: 1999px) {
+  .form-grid > div {
+    flex: 1 1 22%;
+  }
+
+  .date-inputs {
+    width: 170px;
+    font-size: 15px;
+  }
+
+  .label {
+    font-size: 16px;
+  }
+}
+
+/* Large screens: 2000px - 3000px */
+@media (min-width: 2000px) and (max-width: 3000px) {
+  .report-page {
+    padding: 20px 40px;
+  }
+
+  .form-grid > div {
+    flex: 1 1 18%;
+  }
+
+  .date-inputs {
+    width: 200px;
+    font-size: 17px;
+  }
+
+  .label {
+    font-size: 18px;
+  }
+
+  .reports-list table {
+    font-size: 16px;
+  }
+
+  .button-preview {
+    justify-content: flex-end;
+  }
+}
+
+
+
+

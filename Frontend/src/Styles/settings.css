@@ -1,0 +1,91 @@
+.settings-container {
+  padding: 20px;
+}
+
+.settings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.settings-table th,
+.settings-table td {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  text-align: left;
+  width: auto;
+}
+
+
+.settings-table th {
+  background-color: #f0f0f0;
+  /* font-weight: bold; */
+}
+
+.settings-table td.employee-cell {
+  display: flex;
+  justify-content: left;
+  align-items: left;    
+  gap: 8px;  
+  width: auto;
+  border: none !important; 
+}
+
+.permission-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.permission-table th,
+.permission-table td {
+  text-align: center;
+}
+
+
+.permission-table th {
+  background-color: #f0f0f0;
+  /* font-weight: bold; */
+}
+
+.permission-table td.employee-cell {
+  display: flex;
+  justify-content: left;
+  gap: 8px;  
+  width: auto;
+  border: none !important; 
+}
+.setting-div{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    row-gap: 10px;
+}
+
+.btn{
+   background-color: rgb(195, 219, 240);
+    color: black;
+    border: 1px solid #E0EBFF80;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.settings-header{
+  font-size: medium;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.setting-inputs{
+    border: 1px solid #E5E5E5;
+    color: black;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+}

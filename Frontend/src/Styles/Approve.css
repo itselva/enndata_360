@@ -1,0 +1,525 @@
+.over-all-bg{background-color: aliceblue;
+    min-height: 150vh;
+    padding: 20px;}
+     body {
+  /* font-family: 'Mulish', sans-serif; */
+   overflow: auto;
+ }
+
+ .apporvetable-align{
+  position: relative;
+  right:40px;
+
+ }
+ 
+.d-heading{
+    display: flex;
+   justify-content: center;
+}
+.approvetime{
+     width: 90%;
+    background-color: #fff;
+    /* padding: 30px 40px; */
+    /* font-family: Arial, sans-serif; */
+    position: absolute;
+    left: 60px;
+    /* border-radius: 14px; */
+    margin-top: 20px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+  
+  .employee-name {
+  font-size: 18px;
+  font-weight: bold;
+margin-top: 100px;
+margin-left: 40px;
+}
+ .back-btn{
+   background-color:#fff;
+    color: black;
+      border: 1px solid black;
+    border-radius: 12px;
+     padding: 10px 20px;
+ 
+    font-size: 14px;
+    font-weight: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+       
+ }
+ .back{
+  display: flex;
+         
+        gap: 15px;
+        margin-top: 10px;
+        padding: 36px;
+ }
+ .button{
+  display: flex;
+ justify-content: space-between;
+ }
+ .reject-input{
+
+ margin-top: 10px;
+ width: 420px;
+ margin-left: 10px;
+ border: 1px solid  #d4c7c7;
+ border-radius: 10px;
+ font-family: "Mulish";
+ 
+ }
+ .reject-comments{
+  /* color: #fbac00; */
+  margin-left: 10px;
+ }
+ .reject{
+  margin-left: 10px;
+   
+ }
+ 
+ 
+  .reject-btn {
+    background-color:rgb(195, 219, 240);
+    color: black;
+      border: 1px soild ;
+    border-radius: 12px;
+     padding: 10px 20px;
+ 
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+   
+  .approve-btn{
+
+    background-color:rgb(195, 219, 240);
+    color: black;
+
+    border-radius: 12px;
+     padding: 10px 20px;
+ 
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .action-button{
+    display: flex
+;
+    gap: 15px;
+    /* padding: 20px !important; */
+    justify-content: end;
+       /* gap: 15px; */
+        margin-top: 10px;
+        padding: 36px;
+  }
+
+  /* sumi */
+
+  .over-all-bg{background-color: aliceblue;
+    min-height: 150vh;
+    padding: 20px;}
+ 
+.d-heading{
+    display: flex;
+   justify-content: center;
+}
+.approvetime{
+     width: 93%;
+    background-color: #fff;
+    /* padding: 30px 40px; */
+    /* font-family: Arial, sans-serif; */
+    position: absolute;
+    left: 60px;
+    /* border-radius: 14px; */
+    margin-top: 20px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+ 
+  .employee-name {
+  font-size: 18px;
+  font-weight: bold;
+margin-top: 17px;
+margin-left: 42px;
+}
+ .back-btn{
+      background-color: #fff;
+    color: black;
+    border: 1px solid #d4c7c7;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* margin-right: 19px; */
+    position: relative;
+    left: 1;
+    /* right: 15px; */
+       
+ }
+ .back{
+  display: flex;
+         
+        gap: 15px;
+        margin-top: 10px;
+        padding: 36px;
+ }
+ .button{
+  display: flex;
+ justify-content: space-between;
+ }
+ /* .reject-input{
+ 
+margin-top: 10px;
+    width: 80%;
+    height: 100px;
+    margin-left: 10px;
+    border: 1px solid #d4c7c7;
+ 
+ } */
+ .reject-comments{
+  /* color:  #d4c7c7; */
+  margin-left: 10px;
+ }
+ .reject{
+  margin-left: 10px;
+   
+ }
+ 
+ 
+  .reject-btn {
+   background-color:rgb(195, 219, 240);
+    color: black;
+      border: 1px solid #E0EBFF80;
+    border-radius: 12px;
+     padding: 10px 20px;
+ 
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100px;
+  }
+   
+  .approve-btn{
+    background-color:rgb(195, 219, 240);
+    color: black;
+      border: 1px solid #E0EBFF80;
+    border-radius: 12px;
+     padding: 10px 20px;
+ 
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+  }
+  .approve-btn:hover,
+  .reject-btn:hover,
+  .back-btn:hover
+   {
+    background-color: #0036d1;
+    color:white;
+
+  }
+ 
+  .action-button{
+    display: flex
+;
+    gap: 15px;
+    /* padding: 20px !important; */
+    justify-content: end;
+       /* gap: 15px; */
+        margin-top: 10px;
+        padding: 36px;
+  }
+ 
+ 
+  /* Loader Styles */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust as needed */
+}
+ 
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+ 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.blurred {
+  pointer-events: none;
+  user-select: none;
+}
+.screen-spinner {
+  position: fixed;
+  z-index: 1300;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  pointer-events: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-spinner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #333;
+  opacity: 0.35; /* Only this layer is transparent */
+  z-index: 1;
+}
+
+.spinner {
+  position: relative;
+  z-index: 2; /* Ensure it's above the semi-transparent layer */
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1400ms linear infinite;
+}
+
+.hours-container{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin: 20px;
+}
+ 
+ 
+ .home-icon{
+  margin: 68px 0px 7px 41px;
+
+ }
+
+.timesheet-view-wrappers{
+
+    position: relative;
+    /* top:50px; */
+    /* right: 62px; */
+    width:104%;
+    right:16px;
+
+
+}
+
+/* 
+.box-style{
+  width: 80%;
+} */
+
+
+
+
+/* Base styles remain the same */
+/* Add responsive styles below */
+
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575.98px) {
+ .approvetime {
+    width: 95%;
+    /* left: 10px; */
+            left: 52px;
+  }
+
+  /* .employee-name {
+    font-size: 16px;
+    margin: 10px;
+  } */
+
+
+    .back,
+  .action-button {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .reject-input {
+    width: 100%;
+  }
+
+  .hours-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+ 
+
+  .timesheet-view-wrappers {
+    width: 100%;
+    right: 0;
+  }
+}
+
+/* Small devices (phones, >=576px and <768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .approvetime {
+    width: 95%;
+    /* left: 10px; */
+            left: 52px;
+  }
+
+  .back,
+  .action-button {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .reject-input {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, >=768px and <992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .approvetime {
+    width: 90%;
+    left: 57px;
+  }
+
+  .back,
+  .action-button {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .reject-input {
+    width: 90%;
+  }
+}
+
+/* Large devices (desktops, >=992px and <1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .approvetime {
+    width: 90%;
+    left: 30px;
+  }
+}
+
+/* Extra Large (>=1200px and <1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .approvetime {
+    width: 92%;
+    left: 40px;
+  }
+}
+
+/* XXL and above (>=1400px) */
+@media (min-width: 1400px) {
+  .approvetime {
+    width: 93%;
+    left: 60px;
+  }
+}
+
+
+.screen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #007bff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+@media (min-width: 2000px) and (max-width: 3000px) {
+  .approvetime {
+    width: 80%;
+    left: 80px;
+  }
+
+  .employee-name {
+    font-size: 22px;
+    margin-left: 60px;
+  }
+
+  .back-btn,
+  .reject-btn,
+  .approve-btn {
+    font-size: 16px;
+    padding: 14px 24px;
+  }
+
+  .reject-input {
+    width: 500px;
+    font-size: 15px;
+  }
+
+  .reject-comments {
+    font-size: 16px;
+  }
+
+  .action-button {
+    gap: 25px;
+    padding: 40px;
+  }
+
+  .back {
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .hours-container {
+    margin: 40px;
+    font-size: 16px;
+  }
+
+  .home-icon {
+    margin-left: 60px;
+    font-size: 20px;
+  }
+
+  /* .timesheet-view-wrappers {
+    width: 106%;
+    right: 30px;
+  } */
+
+  .box-style {
+    width: 80%;
+    height: 300px;
+  }
+}

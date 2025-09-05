@@ -1,0 +1,33 @@
+/* .reject{
+background-color: #FADB5E;
+}
+
+.reject-title{
+    color: #FFC74E;
+}
+
+.reject-des{
+    color: #FFC74E;
+
+} */
+
+.custom-warning {
+    background-color: #fff8e1;
+   color: #FFC74E;           
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px;
+    margin: 15px 15px;
+  }
+ 
+  .custom-warning-title {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+  }
+ 
+  .custom-warning-text {
+    margin: 0;
+    line-height: 1.5;
+  }

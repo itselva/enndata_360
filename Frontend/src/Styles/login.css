@@ -1,0 +1,282 @@
+.login-container {
+  background-color: white;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 370px;
+  margin: 80px auto;
+  /* height: 338px; */
+}
+
+.login-banner {
+  position: relative;
+  /* bottom: 50px; */
+}
+
+.forgotpassword {
+  color: blue;
+  float: right;
+  /* margin-top: 5px; */
+  cursor: pointer;
+
+}
+
+.grid-gap {
+  display: grid;
+  gap: 10px;
+  margin-top: 5px;
+
+}
+
+.user-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* optional spacing */
+  margin-top: 20px; /* optional */
+  font-size: 14px;
+}
+
+.user-drop {
+  width: 40%;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 6px 10px;
+  font-size: 14px;
+
+  }
+  .select{
+    justify-content: center;
+  }
+
+.user-option:hover {
+  background-color: #007bff;
+}
+ 
+.selected-option {
+  background-color: #007bff; /* Blue background */
+  color: white;
+}
+.user-drop-wrapper {
+  position: relative;
+  width: 40%;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 6px 10px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.user-drop-display {
+  font-size: 14px;
+}
+
+.user-drop-options {
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  width: 100%;
+  border: 1px solid gray;
+  border-top: none;
+  background-color: white;
+  z-index: 1000;
+}
+
+.user-option {
+  padding: 6px 10px;
+}
+
+.user-option:hover {
+  background-color: #f0f0f0;
+}
+
+.tooltip {
+  background-color: white !important;
+  color: black !important;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* IE/Edge */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+/* Safari */
+input[type="password"]::-webkit-password-reveal-button {
+  display: none;
+}
+.info-button{
+  justify-content: end;
+
+}
+
+.password-section {
+  position: relative;
+  /* spacing so icon doesn’t overlap the first field’s label */
+  padding-top: 24px;
+}
+
+.password-info-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* optional styling */
+  background: rgba(255,255,255,0.8);
+  border-radius: 50%;
+}
+
+.tooltip {
+  background-color: white !important;
+  color: black !important;
+  font-size: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+
+/* ---------- Mobile (phones, less than 600px) ---------- */
+@media (min-width: 300px) and (max-width: 600px) {
+  .login-container {
+    width: 300px;
+    padding: 15px;
+    margin: 90px auto;
+  }
+
+  .login-banner img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .grid-gap {
+    gap: 8px;
+  }
+
+  .user-type {
+    gap: 4px;
+    font-size: 12px;
+  }
+
+  .user-drop-wrapper,
+  .user-drop {
+    max-width: 65%;
+    font-size: 12px;
+    padding: 5px 6px;
+  }
+  .forgotpassword {
+    float: none;
+    text-align: right;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .tooltip {
+    font-size: 11px;
+  }
+}
+
+
+/* ---------- Tablet (600px to 899px) ---------- */
+@media (min-width: 600px) and (max-width: 899px) {
+  .login-container {
+    width: 370px;
+    padding: 25px;
+    margin: 60px auto;
+  }
+
+  .user-drop, .user-drop-wrapper {
+    width: 60%;
+  }
+}
+
+/* ---------- Laptop (900px to 1199px) ---------- */
+@media (min-width: 900px) and (max-width: 1199px) {
+  .login-container {
+    width: 370px;
+    padding: 30px;
+    margin: 70px auto;
+  }
+
+  .user-drop, .user-drop-wrapper {
+    width: 50%;
+  }
+}
+
+
+
+/* ---------- High Resolution (1200px and above) ---------- */
+@media (min-width: 1200px) {
+  .login-container {
+    width: 370px;
+    padding: 35px;
+    margin: 80px auto;
+  }
+
+  .user-drop, .user-drop-wrapper {
+    width: 40%;
+    font-size: 14px;
+  }
+
+  .forgotpassword {
+    font-size: 14px;
+  }
+
+  .tooltip {
+    font-size: 13px;
+  }
+}
+
+/* ---------- Ultra HD Screens (1800px and above) ---------- */
+@media (min-width: 1800px) {
+  .login-container {
+    width: 420px;
+    padding: 40px;
+    margin: 100px auto;
+  }
+
+  .user-drop-wrapper {
+    width: 35%;
+  }
+
+  .forgotpassword {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+/* ---------- Extra Ultra-Wide Screens (2000px to 3000px) ---------- */
+@media (min-width: 2000px) and (max-width: 3000px) {
+  .login-container {
+    width: 480px;
+    padding: 45px;
+    margin: 120px auto;
+    font-size: 16px;
+  }
+
+  .user-drop-wrapper {
+    width: 30%;
+    font-size: 15px;
+  }
+
+  .forgotpassword {
+    font-size: 16px;
+  }
+
+  .tooltip {
+    font-size: 14px;
+  }
+
+  .user-type {
+    font-size: 15px;
+  }
+
+  .user-option {
+    font-size: 15px;
+  }
+}
