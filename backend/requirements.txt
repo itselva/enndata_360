@@ -1,0 +1,13 @@
+flask
+flask-cors
+pandas
+openpyxl
+pymysql
+sqlalchemy
+psycopg2-binary
+uvicorn
+python-multipart
+fastapi
+PyJWT
+dotenv
+msal
